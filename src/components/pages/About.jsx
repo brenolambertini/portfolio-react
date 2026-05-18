@@ -26,7 +26,8 @@ function About() {
               <li>- Bachelor of Science and Technology</li>
               <li>- Emphasis in Computer Science</li>
               <li>- Scientific Initiation Scholarship at USP</li>
-              <li>- Over 3 years of proven experience</li>
+              <li>- Over 4 years of proven experience</li>
+              <li>- Postgraduate Certificate in Software Engineering</li>
             </ul>
           </div>
 
@@ -147,11 +148,6 @@ function About() {
               />
               <img
                 className={styles.skill_icon}
-                alt="php"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
-              />
-              <img
-                className={styles.skill_icon}
                 alt="python"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
               />
@@ -246,11 +242,6 @@ function About() {
                 className={styles.skill_icon}
                 alt="opengl"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opengl/opengl-original.svg"
-              />
-              <img
-                className={styles.skill_icon}
-                alt="figma"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
               />
             </div>
           </div>

@@ -14,7 +14,7 @@ function Home() {
           <p className="text-4xl">Hi!</p>
           <p className="text-4xl">I'm Breno Lambertini</p>
           <h2 className="font-bold text-5xl text-yellow mt-4">
-            Full Stack Developer
+            Software Engineer
           </h2>
         </div>
       </div>

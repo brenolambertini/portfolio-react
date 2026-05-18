@@ -50,17 +50,6 @@ function MenuItems({ active }) {
           </div>
         </NavLink>
       </li>
-      <li>
-        <NavLink
-          to="/humanoid"
-          className={({ isActive }) => (isActive ? "font-bold" : undefined)}
-        >
-          <div className={styles.menu_ul}>
-            <AiOutlineHourglass size={24} />
-            Humanoid
-          </div>
-        </NavLink>
-      </li>
     </ul>
   );
 }
