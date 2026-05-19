@@ -10,7 +10,6 @@ import {
   AiOutlineHome,
   AiOutlineInfoCircle,
   AiOutlineTool,
-  AiOutlineHourglass,
 } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdClose } from "react-icons/md";
@@ -23,7 +22,7 @@ function Navbar() {
   }
 
   return (
-    <nav className="mb-8 p-1">
+    <nav className="fixed top-0 left-0 w-full z-50 p-2 bg-black">
       <Container>
         <h1 className="font-cinzel font-extrabold text-xl lg:ml-4">
           <Link to="/">Breno Lambertini</Link>
