@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /humanoid
+
+Sitemap: https://www.brenolambertini.com/sitemap.xml
