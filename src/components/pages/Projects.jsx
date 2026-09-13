@@ -1,3 +1,5 @@
+import usePageMeta from "../../hooks/usePageMeta";
+
 import styles from "./css/Projects.module.css";
 
 import portfolio from "../../img/portfolio.png";
@@ -7,6 +9,13 @@ import react_project from "../../img/react-project.png";
 import robot_of_love from "../../img/robot-of-love.png";
 
 function Projects() {
+  usePageMeta({
+    title: "Projects by Breno Lambertini | Software Engineering Portfolio",
+    description:
+      "Professional and personal projects by Breno Lambertini, from a nationwide real estate registry platform to open-source geolocation and search systems.",
+    path: "/projects",
+  });
+
   return (
     <section className="flex flex-col items-center w-screen gap-16">
       <h2 className="text-4xl text-center text-yellow">

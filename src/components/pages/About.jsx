@@ -1,10 +1,19 @@
 import { BsPinAngleFill } from "react-icons/bs";
 
+import usePageMeta from "../../hooks/usePageMeta";
+
 import styles from "./css/About.module.css";
 
 import unifesp_logo from "../../img/unifesp_logo.png";
 
 function About() {
+  usePageMeta({
+    title: "About Breno Lambertini | Experience, Education and Skills",
+    description:
+      "The professional experience, education and technical skills of Breno Lambertini, a Full Stack Software Engineer working with Vue.js, TypeScript, Node.js, Python and AWS.",
+    path: "/about",
+  });
+
   return (
     <section className="flex flex-col items-center w-screen">
       <div className="flex flex-col mb-16">

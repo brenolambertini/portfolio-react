@@ -1,10 +1,19 @@
 import { SiLinkedin, SiGmail, SiGithub } from "react-icons/si";
 
+import usePageMeta from "../../hooks/usePageMeta";
+
 import styles from "./css/Home.module.css";
 
 import my_photo from "../../img/my-photo.png";
 
 function Home() {
+  usePageMeta({
+    title: "Breno Lambertini | Full Stack Software Engineer",
+    description:
+      "Breno Lambertini is a Full Stack Software Engineer with 5 years of experience building web applications and enterprise systems with Vue.js, TypeScript, Node.js, Python and AWS.",
+    path: "/",
+  });
+
   return (
     <section className="flex flex-col items-center w-screen">
       <div className="flex flex-wrap justify-center gap-12 mb-16">

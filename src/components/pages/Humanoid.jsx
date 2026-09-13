@@ -1,10 +1,19 @@
 import { useState } from "react";
 
+import usePageMeta from "../../hooks/usePageMeta";
+
 import humanoid from "../../img/humanoid.gif";
 import save_humanoid from "../../img/save-humanoid.gif";
 
 function Humanoid() {
   const [showHumanoid, setShowHumanoid] = useState(false);
+
+  usePageMeta({
+    title: "Humanoid | Breno Lambertini",
+    description: "An easter egg.",
+    path: "/humanoid",
+    noIndex: true,
+  });
 
   function releaseHumanoid(e) {
     e.preventDefault();
