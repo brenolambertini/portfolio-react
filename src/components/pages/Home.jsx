@@ -14,8 +14,13 @@ function Home() {
           <p className="text-4xl">Hi!</p>
           <p className="text-4xl">I'm Breno Lambertini</p>
           <h2 className="font-bold text-5xl text-yellow mt-4">
-            Software Engineer
+            Full Stack Software Engineer
           </h2>
+          <p className="max-w-xl text-lg">
+            5 years building web applications and enterprise systems, with a
+            focus on Vue.js and TypeScript on the front-end and Node.js, Python
+            and AWS on the back-end.
+          </p>
         </div>
       </div>
 
@@ -27,17 +32,24 @@ function Home() {
             <a
               href="https://www.linkedin.com/in/brenolambertini/"
               target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn"
             >
               <SiLinkedin size={60} className={styles.contact_icon} />
             </a>
           </li>
           <li>
-            <a href="mailto:brenobl2000@gmail.com" target="_blank">
+            <a href="mailto:brenobl2000@gmail.com" aria-label="Email">
               <SiGmail size={60} className={styles.contact_icon} />
             </a>
           </li>
           <li>
-            <a href="https://github.com/brenolambertini/" target="_blank">
+            <a
+              href="https://github.com/brenolambertini/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub"
+            >
               <SiGithub size={60} className={styles.contact_icon} />
             </a>
           </li>
@@ -46,17 +58,17 @@ function Home() {
 
       <div className="flex flex-wrap justify-center gap-x-24 gap-y-12 mt-16 mb-4">
         <a
-          href="https://drive.google.com/uc?export=download&id=1b0Z3-WrHmWUj1Pw9K3TVZFTfePG8TUp0"
-          className={styles.cv_btn}
-        >
-          CV Download (Português)
-        </a>
-
-        <a
           href="https://drive.google.com/uc?export=download&id=16bGppDEoDWGksgqis02oQPBWlCOVgwxo"
           className={styles.cv_btn}
         >
-          CV Download (English)
+          Download CV (English)
+        </a>
+
+        <a
+          href="https://drive.google.com/uc?export=download&id=1b0Z3-WrHmWUj1Pw9K3TVZFTfePG8TUp0"
+          className={styles.cv_btn}
+        >
+          Baixar Currículo (Português)
         </a>
       </div>
     </section>

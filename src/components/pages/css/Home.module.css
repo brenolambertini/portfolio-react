@@ -3,5 +3,5 @@
 }
 
 .cv_btn {
-  @apply bg-blue border rounded w-36 p-1 font-bold text-center transition duration-150 ease-in-out hover:scale-125;
+  @apply bg-blue border rounded w-64 p-2 font-bold text-center transition duration-150 ease-in-out hover:scale-110;
 }
