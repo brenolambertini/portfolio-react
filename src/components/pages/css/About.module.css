@@ -1,3 +1,27 @@
 .skill_icon {
   @apply p-2 m-3 w-28 bg-salmon rounded transition duration-150 ease-in-out hover:scale-125;
 }
+
+.exp_card {
+  @apply flex flex-col gap-2 p-4 bg-blue rounded;
+}
+
+.exp_header {
+  @apply flex flex-wrap justify-between items-baseline gap-x-4;
+}
+
+.exp_role {
+  @apply text-2xl font-bold text-yellow;
+}
+
+.exp_period {
+  @apply text-base font-semibold;
+}
+
+.exp_company {
+  @apply text-lg font-semibold;
+}
+
+.exp_list {
+  @apply flex flex-col gap-2 mt-2 text-lg;
+}
