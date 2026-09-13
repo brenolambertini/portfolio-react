@@ -6,12 +6,24 @@
   @apply flex flex-col justify-center items-center;
 }
 
+.left_block {
+  @apply flex flex-col justify-center items-center sm:w-60 shrink-0;
+}
+
 .img {
   @apply rounded w-60;
 }
 
 .title {
-  @apply font-bold text-3xl text-yellow;
+  @apply font-bold text-3xl text-center text-yellow;
+}
+
+.company {
+  @apply mt-1 text-xl font-semibold text-center;
+}
+
+.period {
+  @apply text-base text-center;
 }
 
 .right_div {
