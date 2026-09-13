@@ -4,6 +4,7 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Projects from "./components/pages/Projects";
 import Humanoid from "./components/pages/Humanoid";
+import NotFound from "./components/pages/NotFound";
 
 import Container from "./components/layout/Container";
 import Navbar from "./components/layout/Navbar";
@@ -21,6 +22,7 @@ function App() {
               <Route path="/about" element={<About />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/humanoid" element={<Humanoid />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </Container>
         </main>
