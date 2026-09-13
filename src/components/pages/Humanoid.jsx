@@ -31,9 +31,9 @@ function Humanoid() {
       </button>
 
       {showHumanoid ? (
-        <img src={humanoid} alt="Humanoide" />
+        <img src={humanoid} alt="Humanoid" />
       ) : (
-        <img src={save_humanoid} alt="Save The Humanoide" />
+        <img src={save_humanoid} alt="Save The Humanoid" />
       )}
     </div>
   );
