@@ -4,7 +4,7 @@ import usePageMeta from "../../hooks/usePageMeta";
 
 import styles from "./css/Home.module.css";
 
-import my_photo from "../../img/my-photo.png";
+import my_photo from "../../img/my-photo.jpg";
 
 function Home() {
   usePageMeta({
